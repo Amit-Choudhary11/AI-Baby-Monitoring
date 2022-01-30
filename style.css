@@ -1,0 +1,40 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    color: white;
+    font-weight: 600;
+    background-color: blue;
+    padding: 20px;
+    margin-top: 0;
+}
+.header{
+    color: white;
+    font-weight: 300;
+    background-color: blue;
+    padding: 20px;
+    margin-top: 0;
+    box-shadow: 3px 3px 3px gray;
+}
+
+
+.footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-size: x-large;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 0;
+    padding: 3px;
+}
+
+canvas{
+    border-radius: 20px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 4px 4px 4px grey;
+}
