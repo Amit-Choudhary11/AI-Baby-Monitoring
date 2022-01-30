@@ -5,7 +5,7 @@ sound="";
 
 function preload(){
 video = loadImage("baby.jpg");
-sound = createVideo("alert_alarm.mp3");
+sound = loadSound("alert_alarm.mp3");
 }
 
 function setup(){
@@ -35,7 +35,7 @@ if(status != ""){
             }
         }
     }else{
-sound.loop();
+sound.play();
 sound.volume(1);
 sound.speed(1);
 document.getElementById("detect").innerHTML= "Baby Not Detected";  
